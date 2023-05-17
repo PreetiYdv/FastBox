@@ -97,7 +97,7 @@ select {
 
 .star_position {
     left: 7%;
-    top: -5%;
+    top: 0%;
 }
 
 /* client */
@@ -113,6 +113,7 @@ select {
     width: 101%;
     border-radius: 0;
 }
+
 .tabBtn_bg.active {
     background: linear-gradient(270deg, #E3F9E7 0%, rgba(227, 249, 231, 0) 100%);
     width: 101%;
@@ -166,7 +167,7 @@ select {
     max-width: 899px;
 }
 
-.mh_252{
+.mh_252 {
     max-height: 252px;
 }
 
@@ -196,10 +197,12 @@ select {
 .white_space {
     white-space: nowrap;
 }
-footer span svg{
+
+footer span svg {
     cursor: pointer;
 }
-footer span svg:hover{
+
+footer span svg:hover {
     transform: scale(1.2);
 }
 
@@ -215,6 +218,10 @@ footer span svg:hover{
 @media (max-width:1200px) {
     .position_xl_relative {
         position: relative !important;
+    }
+
+    .translate {
+        transform: translate(22%);
     }
 
     .map_img {
@@ -243,6 +250,10 @@ footer span svg:hover{
     .tabBtn_bg {
         padding: 15px 2px;
     }
+
+    .translate {
+        transform: translate(5%) !important;
+    }
 }
 
 @media (max-width:768px) {
@@ -253,6 +264,10 @@ footer span svg:hover{
     .border_left {
         border: 0;
         padding: 0;
+    }
+
+    .translate {
+        transform: translateX(9%);
     }
 }
 
@@ -271,15 +286,21 @@ footer span svg:hover{
         transition: all .5s;
 
     }
-    .right_arrow{
+
+    .right_arrow {
         transform: rotate(90deg);
         padding-left: 40px;
     }
-    .tabs_box3{
-            border-radius: 21px 0px 21px 21px;
+
+    .tabs_box3 {
+        border-radius: 21px 0px 21px 21px;
     }
 
-    .profile_img{
+    .profile_img {
         width: 70px;
+    }
+
+    .translate {
+        transform: translateX(19%);
     }
 }
