@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&family=Poppins:wght@500;600&family=Red+Hat+Text:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&family=Poppins:wght@500;600&family=Red+Hat+Display:wght@400;500&family=Red+Hat+Text:wght@400;500;600&display=swap');
 
 
 :root {
@@ -6,10 +6,10 @@
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-md: 18px;
-    --fs-xmd: 20px;
+    --fs-xmd: 15px;
     --fs-reg: 24px;
     --fs-lg: 26px;
-    --fs-xl: 45px;
+    --fs-xl: 30px;
     --fs-xxl: 70px;
     --fs-3xl: 80px;
 
@@ -17,6 +17,7 @@
     --ff-Anybody: 'Anybody', cursive;
     --ff-poppins: 'Poppins', sans-serif;
     --ff-RedHatText: 'Red Hat Text', sans-serif;
+    --ff-RedHatDisplay: 'Red Hat Display', sans-serif;
 
     /* font color */
     --fc-primary: white;
@@ -96,6 +97,10 @@
 
 .ff_poppins {
     font-family: var(--ff-poppins);
+}
+
+.ff_RedHatDisplay {
+    font-family: var(--ff-RedHatDisplay);
 }
 
 
